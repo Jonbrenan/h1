@@ -3,10 +3,14 @@
     padding: 0;
     margin: 0;
 }
-
+/* This here is element for the body of the webpage. All the info here we needed was the color of the background */
 body {
     background-color: #d9dcd6;
 }
+
+
+/* Boy oh boy! Look at this! It's a class for the header! The info here helps define the physical structure of the header
+and also its color and the fonts used inside of it */
 
 .header {
     padding: 20px;
@@ -16,6 +20,11 @@ body {
     width: 100%;
     float: right;
 }
+
+
+/* Okay! So this comment is for both "h1" and ".seo". What we have here is information that defines what the actual content of
+one of the words are in the header, specifically, the word "Horiseon". The info here defines its size and color and also has
+some info in it that defines where on the page it is found (the float). */
 
  h1 {
     display: inline-block;
@@ -29,6 +38,10 @@ body {
 }
 
    
+
+/* Holy crap, are we still talking about the header!? You betcha! This comment is for the "ul", "li" and "a" elements.
+This all makes up a unlisted list for the links in the header! The way its been done defines where it is in the header,
+how much padding it has, the font used in the three links of the header, its float and color of text */
 
  ul {
     list-style-type: none;
@@ -53,6 +66,11 @@ a {
 
 
 
+/* Did someone call Bonnie Tyler?! Because we have a hero here! This little section has to do with a significant part of what
+one would call the background of the page. This code, combined with html in the html doc, makes a significant part of the
+background of the page a particular image. It doesn't take up the entire background of the image, but it is spaced as such
+that it looks nice and natural with the flow of the page */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -64,11 +82,20 @@ a {
 
 
 
+/* This little code here named "content" helps with displaying a large amount of content on the page (It takes up a significant
+amount of space and has really important content inside of it). This code helps with how the info in "content" is displayed, specifically
+its with and margins. */
+
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+
+/* Look at these two floats! They are here to help posision the three images in the "content" section of the page. Nothing too
+fancy, but extremely important */
 
 
 .float-left {
@@ -82,6 +109,13 @@ a {
     clear: both;
     margin-left: 25px;
 }
+
+
+/* Okay, so here we are talking about three classes that are found inside the "content" section, specifically the "search-engine-optimisation"
+"online reputation management" and "social media marketing". You see, inside the "content" section, we have three blue rectangles
+that hold some content. The content in question are some headers, paragraphs and pictures. Though the images found here are being
+affected by some css code found about this comment, this code here helps with how everything is layed out and how big the
+rectangles are. It also affects the font used in the paragraphs. */
 
 
 .search-engine-optimization {
@@ -109,7 +143,19 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
+
 }
+/* Inside the content section, we have several h2 headers. This code defines its font size and margins that seperate it from the
+other elements in the page */
+ h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* some small code we have here, but very important it is! If we were to delete this small amount of code, most of the images in this
+webpage would move around and expand to ungodly sizes. With this code, we are keeping the images a specific size so it does not
+take up the entire webpage. If they did, this page would be as useful as a cement truck. A cement truck on fire, that is. */
 
  img {
     max-height: 200px;
@@ -117,14 +163,10 @@ a {
     margin: 10px auto;
 }
 
-
-
- h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
+/* This code is for another secion entirely, which we have called the "benifits" section. When viewed in a browser, we see
+this serction on the right side of the screen in a verticle rectangle. The code here represents how the verticle rectangle is
+shaped and colored, as well as the font types used inside of it and its margins which separate it from other content on the 
+page */
 
 .benefits {
     margin-right: 20px;
@@ -136,6 +178,21 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+
+
+/* The class here called "left_images" is here to help correctly size the images found in the benefits section */
+
+.left_images {
+    max-width: 150px;
+}
+
+
+/* For the three classes below (benefit-lead, benifit-brand, and benefit-cost) we have some css here that affects the color of the
+text found in the paragraphs related to these clsses, how it interacts with other floats (they are cleanred here) and how the
+paragraph is related to content around it (that being the margins) */
+
+
 
 .benefit-lead {
     clear: both;
@@ -153,6 +210,12 @@ a {
     color: #ffffff;
 }
 
+
+
+
+/* Inside the benifits section and the footer found at the bottom of the page, we have some headers, specifically h3 headers. This
+code here helps with how to text is layed out and how it affects the elements around it with its margins */
+
  h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -160,9 +223,11 @@ a {
 
 
 
-.left_images {
-    max-width: 150px;
-}
+
+
+/* and finally we have the css for the footer. THe css here helps with the text found in the footer. How it is centered, its font
+family, its padding and code that helps clear its float */
+
 
 
 .footer {
